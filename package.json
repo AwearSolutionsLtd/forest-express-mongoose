@@ -45,7 +45,6 @@
     "mongoose": "5.3.4",
     "mongoose-fixture-loader": "1.0.2",
     "onchange": "5.2.0",
-    "pre-commit": "1.2.2",
     "semver": "5.6.0",
     "simple-git": "1.65.0"
   },
@@ -56,10 +55,6 @@
     "test": "./node_modules/mocha/bin/mocha test/**/* --require babel-register --timeout 15000",
     "test:watch": "./node_modules/mocha/bin/mocha test/**/* adapters/** services/** utils/** --timeout 15000 --watch",
     "lint": "./node_modules/eslint/bin/eslint.js test src",
-    "lint:ci": "node ./.eslint-bin/lint-registered-files.js",
-    "pre-commit": "node ./.eslint-bin/pre-commit-hook.js"
-  },
-  "pre-commit": [
-    "pre-commit"
-  ]
+    "lint:ci": "node ./.eslint-bin/lint-registered-files.js"
+  }
 }
