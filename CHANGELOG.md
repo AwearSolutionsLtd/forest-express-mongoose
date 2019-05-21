@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## RELEASE 3.1.1 - 2019-05-15
+### Fixed
+- Exports - Fix broken exports if users restart a new browser session (ie quit/restart browser).
+
 ## RELEASE 3.1.0 - 2019-04-23
 ### Changed
 - Dependency - Upgrade the forest-express dependency for onlyCrudModule option.
