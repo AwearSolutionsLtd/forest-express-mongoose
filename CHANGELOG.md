@@ -1,6 +1,15 @@
 # Change Log
 
 ## [Unreleased]
+- Related Data - Sort populated arrays of references by the order of the references in the arrays, unless a specific ordering-key was specified.
+
+## RELEASE 3.2.0 - 2019-06-17
+### Added
+- Configuration - The liana now requires recursively model files in `modelsDir` and customization files in `configDir`.
+
+## RELEASE 3.1.2 - 2019-06-17
+### Changed
+- Build - Reduce package size removing Docker data folder from it.
 
 ## RELEASE 3.1.1 - 2019-05-15
 ### Fixed
